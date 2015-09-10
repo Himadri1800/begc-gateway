@@ -118,11 +118,11 @@
 
 
         <tr>
-            <td>exam_2</td>
+            <td>exam_3</td>
             <td>year_3</td>
-            <td>board_2</td>
-            <td>marks_2</td>
-            <td>percent_2</td>
+            <td>board_3</td>
+            <td>marks_3</td>
+            <td>percent_3</td>
         </tr>
 
 
