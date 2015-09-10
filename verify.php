@@ -302,7 +302,7 @@ if(empty($posted['hash']) && sizeof($posted) > 0) {
 		     <td class="label"><label>Amount: </label></td>
       		<td class="label">Rs. <?php echo (empty($posted['amount'])) ? $amount : $posted['amount'] ?>/- </td>
       	</tr>
-		<tr><h5>* The  amount include Rs. 20/- as Service charges</h5></tr>
+		<tr><td><h5>* The  amount include Rs. 20/- as Service charges</h5></td></tr>
 
  <?php if(!$hash) { ?>
             <td colspan="4"><input type="submit" value="Submit" /></td>
