@@ -80,7 +80,7 @@
 
         <tr>
              <td class="label"><label>Amount: </label></td>
-            <td class="label">applicant_amount + Rs. 20/- Service charges</td>
+            <td class="label">Rs/- applicant_amount *</td>
         </tr>
 		
 		  <tr>
@@ -90,7 +90,7 @@
    
                
 	</table>
-
+	<h5>* The  amount include Rs. 20/- as Service charges</h5>
 </fieldset>	
     <table border="1">
         <tr>
@@ -128,7 +128,7 @@
 
 
 
-
+	
     </table>
         <hr/>
         <p> I hereby affirm that the information provided by me is accurate and true to the best of my knowledge.</p>
@@ -136,6 +136,7 @@
         <p style="display: inline-block; text-align: right;"> Signature</p>
         <P style="display: inline-block; text-align: left">Place </p>
 	</div>
+	
 
 </body>
 </html>

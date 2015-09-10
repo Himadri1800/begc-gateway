@@ -7,9 +7,9 @@ error_reporting(E_ERROR | E_PARSE);
 if ($_POST) {
 
 	if($_POST["usercast"]=='gen') {
-			$amount=200;
+			$amount=220;
 		}else{
-			$amount=100;
+			$amount=120;
 		}
 
    
@@ -300,8 +300,9 @@ if(empty($posted['hash']) && sizeof($posted) > 0) {
 
       	<tr>
 		     <td class="label"><label>Amount: </label></td>
-      		<td class="label">Rs. <?php echo (empty($posted['amount'])) ? $amount : $posted['amount'] ?>/- + Rs. 20/- Service charges</td>
+      		<td class="label">Rs. <?php echo (empty($posted['amount'])) ? $amount : $posted['amount'] ?>/- </td>
       	</tr>
+		<tr><h5>* The  amount include Rs. 20/- as Service charges</h5></tr>
 
  <?php if(!$hash) { ?>
             <td colspan="4"><input type="submit" value="Submit" /></td>
